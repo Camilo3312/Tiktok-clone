@@ -1,0 +1,7 @@
+.for_you {
+    width: 100%;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+

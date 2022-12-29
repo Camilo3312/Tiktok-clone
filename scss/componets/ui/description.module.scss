@@ -1,0 +1,56 @@
+.description {
+    width: calc(100% - 85px);
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    z-index: 3;
+
+    .video_name {
+        margin: 0 0 10px 0;
+    }
+
+    .username {
+        font-weight: 700;
+        margin: 0 0 10px 0;
+    }
+
+    .song_info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+
+        .text_moviment{
+            width: 100%;
+            overflow: hidden;
+
+            .song_name {
+                font-size: 14px;
+                animation: moviment infinite linear 4s;
+                white-space: nowrap;
+
+                @keyframes moviment {
+
+                    0% {
+                        transform: translateX(120%);
+                    }
+
+                    100% {
+                        transform: translateX(-120%);
+                    }
+                }
+                
+            }
+
+
+        }
+
+        .song_icon {
+            width: 11.5px;
+            height: 13px;
+        }
+
+    }
+
+}
+

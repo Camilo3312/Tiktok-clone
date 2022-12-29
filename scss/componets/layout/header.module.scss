@@ -1,0 +1,22 @@
+.header_app {
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background: #20202094;
+    z-index: 3;
+
+    position: absolute;
+    top: 0;
+
+    .navigation {
+        display: flex;
+        gap: 20px;
+
+        .active {
+            color: red;
+        }
+    }
+}

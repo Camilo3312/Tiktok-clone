@@ -1,0 +1,26 @@
+.controls {
+    // width: 40px;
+    margin: 0 0 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 15px;
+    
+    .like {
+        display: flex;
+    }
+
+    .option {
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+
+        .info {
+            font-size: 13px;
+            text-shadow: 1px 1px 1px #707070;
+        }
+    }
+
+
+}
